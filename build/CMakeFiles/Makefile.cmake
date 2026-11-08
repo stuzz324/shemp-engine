@@ -12,6 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.5/CMakeSystem.cmake"
   "/home/will/shemp_engine/include/CMakeLists.txt"
+  "/home/will/shemp_engine/include/cglm/CMakeLists.txt"
+  "/home/will/shemp_engine/include/cglm/cglm.pc.in"
   "/home/will/shemp_engine/include/glad/CMakeLists.txt"
   "/home/will/shemp_engine/include/glfw/CMake/cmake_uninstall.cmake.in"
   "/home/will/shemp_engine/include/glfw/CMake/glfw3.pc.in"
@@ -20,7 +22,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/will/shemp_engine/include/glfw/docs/CMakeLists.txt"
   "/home/will/shemp_engine/include/glfw/docs/Doxyfile.in"
   "/home/will/shemp_engine/include/glfw/src/CMakeLists.txt"
-  "/home/will/shemp_engine/src/CMakeLists.txt"
   "/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -32,6 +33,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake/Modules/CPack.cmake"
+  "/usr/share/cmake/Modules/CPackComponent.cmake"
   "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
   "/usr/share/cmake/Modules/CheckFunctionExists.cmake"
   "/usr/share/cmake/Modules/CheckIncludeFile.cmake"
@@ -71,6 +74,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   "/usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+  "/usr/share/cmake/Templates/CPackConfig.cmake.in"
   )
 
 # The corresponding makefile is:
@@ -82,8 +86,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/glfw/src/glfw3Config.cmake"
   "include/glfw/src/glfw3ConfigVersion.cmake"
   "include/glfw/cmake_uninstall.cmake"
@@ -92,15 +96,19 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "include/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/glfw/docs/Doxyfile"
   "include/glfw/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "include/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "CPackConfig.cmake"
+  "CPackSourceConfig.cmake"
+  "include/cglm/cglm.pc"
+  "include/cglm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/shemp_main.dir/DependInfo.cmake"
+  "CMakeFiles/shemp_main.dir/DependInfo.cmake"
+  "include/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "include/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "include/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "include/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "include/glfw/docs/CMakeFiles/docs.dir/DependInfo.cmake"
-  "include/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "include/cglm/CMakeFiles/cglm.dir/DependInfo.cmake"
   )

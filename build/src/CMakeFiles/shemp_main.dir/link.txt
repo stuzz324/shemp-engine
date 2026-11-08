@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/shemp_main.dir/link.d CMakeFiles/shemp_main.dir/main.c.o -o shemp_main  ../include/glad/libglad.a ../include/glfw/src/libglfw3.a /usr/lib/libGLX.so /usr/lib/libOpenGL.so /usr/lib/librt.a -lm -ldl

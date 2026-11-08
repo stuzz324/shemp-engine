@@ -65,6 +65,26 @@ CMAKE_BINARY_DIR = /home/will/shemp_engine/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
+	/usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+.PHONY : package/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+.PHONY : package_source/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -178,8 +198,21 @@ shemp_main: cmake_check_build_system
 
 # fast build rule for target.
 shemp_main/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/shemp_main.dir/build.make src/CMakeFiles/shemp_main.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shemp_main.dir/build.make CMakeFiles/shemp_main.dir/build
 .PHONY : shemp_main/fast
+
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f include/glad/CMakeFiles/glad.dir/build.make include/glad/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -234,17 +267,41 @@ docs/fast:
 .PHONY : docs/fast
 
 #=============================================================================
-# Target rules for targets named glad
+# Target rules for targets named cglm
 
 # Build rule for target.
-glad: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
-.PHONY : glad
+cglm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cglm
+.PHONY : cglm
 
 # fast build rule for target.
-glad/fast:
-	$(MAKE) $(MAKESILENT) -f include/glad/CMakeFiles/glad.dir/build.make include/glad/CMakeFiles/glad.dir/build
-.PHONY : glad/fast
+cglm/fast:
+	$(MAKE) $(MAKESILENT) -f include/cglm/CMakeFiles/cglm.dir/build.make include/cglm/CMakeFiles/cglm.dir/build
+.PHONY : cglm/fast
+
+src/main.o: src/main.c.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shemp_main.dir/build.make CMakeFiles/shemp_main.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shemp_main.dir/build.make CMakeFiles/shemp_main.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shemp_main.dir/build.make CMakeFiles/shemp_main.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -258,13 +315,19 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... package"
+	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... docs"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... cglm"
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... shemp_main"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
