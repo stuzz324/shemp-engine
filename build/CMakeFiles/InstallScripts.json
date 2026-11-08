@@ -2,6 +2,7 @@
 	"InstallScripts" : 
 	[
 		"/home/will/shemp_engine/build/cmake_install.cmake",
+		"/home/will/shemp_engine/build/shemp/cmake_install.cmake",
 		"/home/will/shemp_engine/build/include/cmake_install.cmake",
 		"/home/will/shemp_engine/build/include/glad/cmake_install.cmake",
 		"/home/will/shemp_engine/build/include/glfw/cmake_install.cmake",

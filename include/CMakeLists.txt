@@ -6,10 +6,16 @@ add_subdirectory(cglm)
 
 find_package(OpenGL REQUIRED)
 
-target_link_libraries(shemp_main
-    PRIVATE
+target_link_libraries(shemp_libs
+    PUBLIC
         glad
         glfw
         OpenGL::GL
         cglm
 )
+
+target_link_libraries(shemp_main
+    PUBLIC
+        shemp_libs
+)
+

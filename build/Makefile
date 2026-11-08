@@ -202,6 +202,19 @@ shemp_main/fast:
 .PHONY : shemp_main/fast
 
 #=============================================================================
+# Target rules for targets named shemp_libs
+
+# Build rule for target.
+shemp_libs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shemp_libs
+.PHONY : shemp_libs
+
+# fast build rule for target.
+shemp_libs/fast:
+	$(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/build
+.PHONY : shemp_libs/fast
+
+#=============================================================================
 # Target rules for targets named glad
 
 # Build rule for target.
@@ -324,6 +337,7 @@ help:
 	@echo "... cglm"
 	@echo "... glad"
 	@echo "... glfw"
+	@echo "... shemp_libs"
 	@echo "... shemp_main"
 	@echo "... src/main.o"
 	@echo "... src/main.i"

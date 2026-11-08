@@ -3,9 +3,9 @@ shemp_main: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/shemp_main.dir/src/main.c.o \
+  shemp/libshemp_libs.a \
   include/glad/libglad.a \
   include/glfw/src/libglfw3.a \
-  include/cglm/libcglm.so.0.9.8 \
   /usr/lib/librt.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -15,6 +15,7 @@ shemp_main: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a \
   /usr/lib/libGLX.so \
   /usr/lib/libOpenGL.so \
+  include/cglm/libcglm.so.0.9.8 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s_asneeded.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s_asneeded.so \
@@ -60,11 +61,11 @@ shemp_main: \
 
 CMakeFiles/shemp_main.dir/src/main.c.o:
 
+shemp/libshemp_libs.a:
+
 include/glad/libglad.a:
 
 include/glfw/src/libglfw3.a:
-
-include/cglm/libcglm.so.0.9.8:
 
 /usr/lib/librt.a:
 
@@ -83,6 +84,8 @@ include/cglm/libcglm.so.0.9.8:
 /usr/lib/libGLX.so:
 
 /usr/lib/libOpenGL.so:
+
+include/cglm/libcglm.so.0.9.8:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 

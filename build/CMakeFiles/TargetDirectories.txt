@@ -7,6 +7,15 @@
 /home/will/shemp_engine/build/CMakeFiles/install.dir
 /home/will/shemp_engine/build/CMakeFiles/install/local.dir
 /home/will/shemp_engine/build/CMakeFiles/install/strip.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/shemp_libs.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/package.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/package_source.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/edit_cache.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/rebuild_cache.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/list_install_components.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/install.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/install/local.dir
+/home/will/shemp_engine/build/shemp/CMakeFiles/install/strip.dir
 /home/will/shemp_engine/build/include/CMakeFiles/package.dir
 /home/will/shemp_engine/build/include/CMakeFiles/package_source.dir
 /home/will/shemp_engine/build/include/CMakeFiles/edit_cache.dir

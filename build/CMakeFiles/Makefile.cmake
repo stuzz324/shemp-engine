@@ -22,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/will/shemp_engine/include/glfw/docs/CMakeLists.txt"
   "/home/will/shemp_engine/include/glfw/docs/Doxyfile.in"
   "/home/will/shemp_engine/include/glfw/src/CMakeLists.txt"
+  "/home/will/shemp_engine/shemp/CMakeLists.txt"
   "/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -86,6 +87,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "shemp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/glfw/src/glfw3Config.cmake"
@@ -105,6 +107,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/shemp_main.dir/DependInfo.cmake"
+  "shemp/CMakeFiles/shemp_libs.dir/DependInfo.cmake"
   "include/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "include/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "include/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"

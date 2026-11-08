@@ -36,4 +36,5 @@ CMakeFiles/shemp_main.dir/src/main.c.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h
+ /home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h \
+ /home/will/shemp_engine/shemp/smpinit.h

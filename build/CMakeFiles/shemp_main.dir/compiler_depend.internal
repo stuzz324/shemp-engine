@@ -3,6 +3,10 @@
 
 CMakeFiles/shemp_main.dir/src/main.c.o
  /home/will/shemp_engine/src/main.c
+ /home/will/shemp_engine/include/glad/include/KHR/khrplatform.h
+ /home/will/shemp_engine/include/glad/include/glad/gl.h
+ /home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h
+ /home/will/shemp_engine/shemp/smpinit.h
  /usr/include/alloca.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h
@@ -16,6 +20,8 @@ CMakeFiles/shemp_main.dir/src/main.c.o
  /usr/include/bits/pthreadtypes.h
  /usr/include/bits/select.h
  /usr/include/bits/stdint-intn.h
+ /usr/include/bits/stdint-least.h
+ /usr/include/bits/stdint-uintn.h
  /usr/include/bits/stdio_lim.h
  /usr/include/bits/stdlib-float.h
  /usr/include/bits/struct_mutex.h
@@ -44,6 +50,7 @@ CMakeFiles/shemp_main.dir/src/main.c.o
  /usr/include/bits/uintn-identity.h
  /usr/include/bits/waitflags.h
  /usr/include/bits/waitstatus.h
+ /usr/include/bits/wchar.h
  /usr/include/bits/wordsize.h
  /usr/include/endian.h
  /usr/include/features-time64.h
@@ -51,6 +58,7 @@ CMakeFiles/shemp_main.dir/src/main.c.o
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
  /usr/include/stdc-predef.h
+ /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/sys/cdefs.h
@@ -58,6 +66,7 @@ CMakeFiles/shemp_main.dir/src/main.c.o
  /usr/include/sys/types.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
 shemp_main
  /usr/lib/Scrt1.o
@@ -91,4 +100,5 @@ shemp_main
  /home/will/shemp_engine/build/include/cglm/libcglm.so.0.9.8
  /home/will/shemp_engine/build/include/glad/libglad.a
  /home/will/shemp_engine/build/include/glfw/src/libglfw3.a
+ /home/will/shemp_engine/build/shemp/libshemp_libs.a
 
