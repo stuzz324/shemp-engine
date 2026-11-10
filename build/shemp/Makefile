@@ -202,6 +202,30 @@ shemp_libs/fast:
 	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/build
 .PHONY : shemp_libs/fast
 
+smperr.o: smperr.c.o
+.PHONY : smperr.o
+
+# target to build an object file
+smperr.c.o:
+	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smperr.c.o
+.PHONY : smperr.c.o
+
+smperr.i: smperr.c.i
+.PHONY : smperr.i
+
+# target to preprocess a source file
+smperr.c.i:
+	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smperr.c.i
+.PHONY : smperr.c.i
+
+smperr.s: smperr.c.s
+.PHONY : smperr.s
+
+# target to generate assembly for a file
+smperr.c.s:
+	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smperr.c.s
+.PHONY : smperr.c.s
+
 smpinit.o: smpinit.c.o
 .PHONY : smpinit.o
 
@@ -266,6 +290,9 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... shemp_libs"
+	@echo "... smperr.o"
+	@echo "... smperr.i"
+	@echo "... smperr.s"
 	@echo "... smpinit.o"
 	@echo "... smpinit.i"
 	@echo "... smpinit.s"

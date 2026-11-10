@@ -104,6 +104,7 @@ shemp_main: /usr/lib/libm.so
 shemp_main: /usr/lib/libGLX.so
 shemp_main: /usr/lib/libOpenGL.so
 shemp_main: include/cglm/libcglm.so.0.9.8
+shemp_main: include/swgrb/libswgrb.a
 shemp_main: CMakeFiles/shemp_main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable shemp_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shemp_main.dir/link.txt --verbose=$(VERBOSE)

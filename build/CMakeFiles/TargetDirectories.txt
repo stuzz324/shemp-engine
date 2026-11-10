@@ -70,3 +70,12 @@
 /home/will/shemp_engine/build/include/cglm/CMakeFiles/install.dir
 /home/will/shemp_engine/build/include/cglm/CMakeFiles/install/local.dir
 /home/will/shemp_engine/build/include/cglm/CMakeFiles/install/strip.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/swgrb.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/package.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/package_source.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/edit_cache.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/rebuild_cache.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/list_install_components.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/install.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/install/local.dir
+/home/will/shemp_engine/build/include/swgrb/CMakeFiles/install/strip.dir

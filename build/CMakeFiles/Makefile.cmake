@@ -22,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/will/shemp_engine/include/glfw/docs/CMakeLists.txt"
   "/home/will/shemp_engine/include/glfw/docs/Doxyfile.in"
   "/home/will/shemp_engine/include/glfw/src/CMakeLists.txt"
+  "/home/will/shemp_engine/include/swgrb/CMakeLists.txt"
   "/home/will/shemp_engine/shemp/CMakeLists.txt"
   "/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
@@ -102,6 +103,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackSourceConfig.cmake"
   "include/cglm/cglm.pc"
   "include/cglm/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/swgrb/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -114,4 +116,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "include/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "include/glfw/docs/CMakeFiles/docs.dir/DependInfo.cmake"
   "include/cglm/CMakeFiles/cglm.dir/DependInfo.cmake"
+  "include/swgrb/CMakeFiles/swgrb.dir/DependInfo.cmake"
   )

@@ -292,6 +292,19 @@ cglm/fast:
 	$(MAKE) $(MAKESILENT) -f include/cglm/CMakeFiles/cglm.dir/build.make include/cglm/CMakeFiles/cglm.dir/build
 .PHONY : cglm/fast
 
+#=============================================================================
+# Target rules for targets named swgrb
+
+# Build rule for target.
+swgrb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 swgrb
+.PHONY : swgrb
+
+# fast build rule for target.
+swgrb/fast:
+	$(MAKE) $(MAKESILENT) -f include/swgrb/CMakeFiles/swgrb.dir/build.make include/swgrb/CMakeFiles/swgrb.dir/build
+.PHONY : swgrb/fast
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -339,6 +352,7 @@ help:
 	@echo "... glfw"
 	@echo "... shemp_libs"
 	@echo "... shemp_main"
+	@echo "... swgrb"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

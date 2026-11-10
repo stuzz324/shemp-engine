@@ -3,9 +3,10 @@
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
 #include <smpinit.h>
+#include <smperr.h>
 
 int main(int argc, char** argv) {
-    //smp_error_test();
+    smp_error_test();
     int init_ret = smp_init();
 
     printf("smp_window: %p\n", smp_window);

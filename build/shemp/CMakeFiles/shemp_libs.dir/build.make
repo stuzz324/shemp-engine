@@ -100,19 +100,35 @@ shemp/CMakeFiles/shemp_libs.dir/smpshdr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shemp_libs.dir/smpshdr.c.s"
 	cd /home/will/shemp_engine/build/shemp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/will/shemp_engine/shemp/smpshdr.c -o CMakeFiles/shemp_libs.dir/smpshdr.c.s
 
+shemp/CMakeFiles/shemp_libs.dir/smperr.c.o: shemp/CMakeFiles/shemp_libs.dir/flags.make
+shemp/CMakeFiles/shemp_libs.dir/smperr.c.o: /home/will/shemp_engine/shemp/smperr.c
+shemp/CMakeFiles/shemp_libs.dir/smperr.c.o: shemp/CMakeFiles/shemp_libs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object shemp/CMakeFiles/shemp_libs.dir/smperr.c.o"
+	cd /home/will/shemp_engine/build/shemp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT shemp/CMakeFiles/shemp_libs.dir/smperr.c.o -MF CMakeFiles/shemp_libs.dir/smperr.c.o.d -o CMakeFiles/shemp_libs.dir/smperr.c.o -c /home/will/shemp_engine/shemp/smperr.c
+
+shemp/CMakeFiles/shemp_libs.dir/smperr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shemp_libs.dir/smperr.c.i"
+	cd /home/will/shemp_engine/build/shemp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/will/shemp_engine/shemp/smperr.c > CMakeFiles/shemp_libs.dir/smperr.c.i
+
+shemp/CMakeFiles/shemp_libs.dir/smperr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shemp_libs.dir/smperr.c.s"
+	cd /home/will/shemp_engine/build/shemp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/will/shemp_engine/shemp/smperr.c -o CMakeFiles/shemp_libs.dir/smperr.c.s
+
 # Object files for target shemp_libs
 shemp_libs_OBJECTS = \
 "CMakeFiles/shemp_libs.dir/smpinit.c.o" \
-"CMakeFiles/shemp_libs.dir/smpshdr.c.o"
+"CMakeFiles/shemp_libs.dir/smpshdr.c.o" \
+"CMakeFiles/shemp_libs.dir/smperr.c.o"
 
 # External object files for target shemp_libs
 shemp_libs_EXTERNAL_OBJECTS =
 
 shemp/libshemp_libs.a: shemp/CMakeFiles/shemp_libs.dir/smpinit.c.o
 shemp/libshemp_libs.a: shemp/CMakeFiles/shemp_libs.dir/smpshdr.c.o
+shemp/libshemp_libs.a: shemp/CMakeFiles/shemp_libs.dir/smperr.c.o
 shemp/libshemp_libs.a: shemp/CMakeFiles/shemp_libs.dir/build.make
 shemp/libshemp_libs.a: shemp/CMakeFiles/shemp_libs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libshemp_libs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libshemp_libs.a"
 	cd /home/will/shemp_engine/build/shemp && $(CMAKE_COMMAND) -P CMakeFiles/shemp_libs.dir/cmake_clean_target.cmake
 	cd /home/will/shemp_engine/build/shemp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shemp_libs.dir/link.txt --verbose=$(VERBOSE)
 

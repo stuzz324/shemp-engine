@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/will/shemp_engine/shemp -I/home/will/shemp_engine/include/glad/include -I/home/will/shemp_engine/include/glfw/include -I/home/will/shemp_engine/include/cglm/include
+C_INCLUDES = -I/home/will/shemp_engine/shemp -I/home/will/shemp_engine/include/glad/include -I/home/will/shemp_engine/include/glfw/include -I/home/will/shemp_engine/include/cglm/include -I/home/will/shemp_engine/include/swgrb
 
 C_FLAGS = 
 

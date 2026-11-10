@@ -6,7 +6,9 @@ CMakeFiles/shemp_main.dir/src/main.c.o
  /home/will/shemp_engine/include/glad/include/KHR/khrplatform.h
  /home/will/shemp_engine/include/glad/include/glad/gl.h
  /home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h
+ /home/will/shemp_engine/shemp/smperr.h
  /home/will/shemp_engine/shemp/smpinit.h
+ /home/will/shemp_engine/shemp/smptypes.h
  /usr/include/alloca.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h
@@ -100,5 +102,6 @@ shemp_main
  /home/will/shemp_engine/build/include/cglm/libcglm.so.0.9.8
  /home/will/shemp_engine/build/include/glad/libglad.a
  /home/will/shemp_engine/build/include/glfw/src/libglfw3.a
+ /home/will/shemp_engine/build/include/swgrb/libswgrb.a
  /home/will/shemp_engine/build/shemp/libshemp_libs.a
 

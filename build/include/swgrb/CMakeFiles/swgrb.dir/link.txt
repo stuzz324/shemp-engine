@@ -1,0 +1,2 @@
+/usr/bin/ar qc libswgrb.a CMakeFiles/swgrb.dir/swgrb.c.o
+/usr/bin/ranlib libswgrb.a

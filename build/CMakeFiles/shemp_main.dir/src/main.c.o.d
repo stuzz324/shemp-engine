@@ -37,4 +37,6 @@ CMakeFiles/shemp_main.dir/src/main.c.o: \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
  /home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h \
- /home/will/shemp_engine/shemp/smpinit.h
+ /home/will/shemp_engine/shemp/smpinit.h \
+ /home/will/shemp_engine/shemp/smptypes.h \
+ /home/will/shemp_engine/shemp/smperr.h

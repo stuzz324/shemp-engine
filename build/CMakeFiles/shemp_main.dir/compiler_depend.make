@@ -5,7 +5,9 @@ CMakeFiles/shemp_main.dir/src/main.c.o: /home/will/shemp_engine/src/main.c \
   /home/will/shemp_engine/include/glad/include/KHR/khrplatform.h \
   /home/will/shemp_engine/include/glad/include/glad/gl.h \
   /home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h \
+  /home/will/shemp_engine/shemp/smperr.h \
   /home/will/shemp_engine/shemp/smpinit.h \
+  /home/will/shemp_engine/shemp/smptypes.h \
   /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -98,6 +100,7 @@ shemp_main: /usr/lib/Scrt1.o \
   include/cglm/libcglm.so.0.9.8 \
   include/glad/libglad.a \
   include/glfw/src/libglfw3.a \
+  include/swgrb/libswgrb.a \
   shemp/libshemp_libs.a
 
 
@@ -124,6 +127,8 @@ CMakeFiles/shemp_main.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
 shemp/libshemp_libs.a:
+
+include/swgrb/libswgrb.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s_asneeded.so:
 
@@ -161,9 +166,7 @@ shemp/libshemp_libs.a:
 
 /usr/include/sys/cdefs.h:
 
-/usr/lib/libc_nonshared.a:
-
-/usr/include/bits/types.h:
+/usr/include/stdlib.h:
 
 /usr/include/bits/time64.h:
 
@@ -191,9 +194,19 @@ shemp/libshemp_libs.a:
 
 /usr/include/bits/long-double.h:
 
-/home/will/shemp_engine/include/glad/include/KHR/khrplatform.h:
+/usr/include/bits/libc-header-start.h:
 
-/usr/include/bits/types/FILE.h:
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/home/will/shemp_engine/include/glad/include/glad/gl.h:
+
+/usr/lib/libXdmcp.so.6:
+
+/home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h:
 
 include/glfw/src/libglfw3.a:
 
@@ -205,17 +218,23 @@ include/glfw/src/libglfw3.a:
 
 /usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/bits/struct_mutex.h:
+/home/will/shemp_engine/shemp/smperr.h:
 
-/home/will/shemp_engine/include/glad/include/glad/gl.h:
+/usr/include/bits/types/__fpos_t.h:
 
-/usr/lib/libXdmcp.so.6:
+/usr/include/bits/wordsize.h:
 
-/home/will/shemp_engine/include/glfw/include/GLFW/glfw3.h:
+/usr/lib/libmvec.so.1:
+
+/usr/include/bits/types/once_flag.h:
+
+/home/will/shemp_engine/shemp/smpinit.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
-/usr/include/bits/libc-header-start.h:
+/home/will/shemp_engine/include/glad/include/KHR/khrplatform.h:
+
+/home/will/shemp_engine/shemp/smptypes.h:
 
 /usr/include/bits/timesize.h:
 
@@ -227,27 +246,19 @@ include/glfw/src/libglfw3.a:
 
 /usr/include/bits/endianness.h:
 
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/stdlib-float.h:
-
 /usr/include/bits/types/sigset_t.h:
 
 /usr/include/bits/floatn-common.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/lib/libc_nonshared.a:
 
-/usr/lib/libmvec.so.1:
+/usr/include/bits/types.h:
 
-/home/will/shemp_engine/shemp/smpinit.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/bits/types/once_flag.h:
+/usr/include/bits/stdlib-float.h:
 
-/usr/include/bits/floatn.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/wordsize.h:
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -275,7 +286,9 @@ include/glad/libglad.a:
 
 /usr/include/bits/types/time_t.h:
 
-/usr/include/stdlib.h:
+/usr/include/stdio.h:
+
+/usr/include/bits/types/timer_t.h:
 
 /usr/include/bits/stdint-uintn.h:
 
@@ -290,7 +303,3 @@ include/glad/libglad.a:
 /usr/include/gnu/stubs.h:
 
 /usr/include/stdint.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/stdio.h:
