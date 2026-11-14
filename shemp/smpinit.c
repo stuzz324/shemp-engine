@@ -31,3 +31,17 @@ int smp_init() {
     if (smpi_errno != 0) return -1;
     return 0;
 }
+
+int smp_init_shdrs() {
+    smp_pmatches_t* matches;
+    //get shader source code
+    smp_get_shdr_files(SMP_SHGVRT, &matches);
+
+    //load shader source code
+
+
+    //compile shader source code
+
+
+    return 0;
+}

@@ -301,7 +301,7 @@ shemp/CMakeFiles/shemp_libs.dir/all: include/cglm/CMakeFiles/cglm.dir/all
 shemp/CMakeFiles/shemp_libs.dir/all: include/swgrb/CMakeFiles/swgrb.dir/all
 	$(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/depend
 	$(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=92,93,94,95 "Built target shemp_libs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=91,92,93,94,95 "Built target shemp_libs"
 .PHONY : shemp/CMakeFiles/shemp_libs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -318,7 +318,7 @@ shemp_libs: shemp/CMakeFiles/shemp_libs.dir/rule
 # codegen rule for target.
 shemp/CMakeFiles/shemp_libs.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=92,93,94,95 "Finished codegen for target shemp_libs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=91,92,93,94,95 "Finished codegen for target shemp_libs"
 .PHONY : shemp/CMakeFiles/shemp_libs.dir/codegen
 
 # clean rule for target.
@@ -333,7 +333,7 @@ shemp/CMakeFiles/shemp_libs.dir/clean:
 include/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f include/glad/CMakeFiles/glad.dir/build.make include/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/glad/CMakeFiles/glad.dir/build.make include/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=47,48 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=46,47 "Built target glad"
 .PHONY : include/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,7 +350,7 @@ glad: include/glad/CMakeFiles/glad.dir/rule
 # codegen rule for target.
 include/glad/CMakeFiles/glad.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f include/glad/CMakeFiles/glad.dir/build.make include/glad/CMakeFiles/glad.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=47,48 "Finished codegen for target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=46,47 "Finished codegen for target glad"
 .PHONY : include/glad/CMakeFiles/glad.dir/codegen
 
 # clean rule for target.
@@ -397,7 +397,7 @@ include/glfw/CMakeFiles/uninstall.dir/clean:
 include/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f include/glfw/src/CMakeFiles/glfw.dir/build.make include/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/glfw/src/CMakeFiles/glfw.dir/build.make include/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90 "Built target glfw"
 .PHONY : include/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -414,7 +414,7 @@ glfw: include/glfw/src/CMakeFiles/glfw.dir/rule
 # codegen rule for target.
 include/glfw/src/CMakeFiles/glfw.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f include/glfw/src/CMakeFiles/glfw.dir/build.make include/glfw/src/CMakeFiles/glfw.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Finished codegen for target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90 "Finished codegen for target glfw"
 .PHONY : include/glfw/src/CMakeFiles/glfw.dir/codegen
 
 # clean rule for target.
@@ -461,7 +461,7 @@ include/glfw/src/CMakeFiles/update_mappings.dir/clean:
 include/glfw/docs/CMakeFiles/docs.dir/all:
 	$(MAKE) $(MAKESILENT) -f include/glfw/docs/CMakeFiles/docs.dir/build.make include/glfw/docs/CMakeFiles/docs.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/glfw/docs/CMakeFiles/docs.dir/build.make include/glfw/docs/CMakeFiles/docs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=46 "Built target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=45 "Built target docs"
 .PHONY : include/glfw/docs/CMakeFiles/docs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +478,7 @@ docs: include/glfw/docs/CMakeFiles/docs.dir/rule
 # codegen rule for target.
 include/glfw/docs/CMakeFiles/docs.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f include/glfw/docs/CMakeFiles/docs.dir/build.make include/glfw/docs/CMakeFiles/docs.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=46 "Finished codegen for target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=45 "Finished codegen for target docs"
 .PHONY : include/glfw/docs/CMakeFiles/docs.dir/codegen
 
 # clean rule for target.
@@ -493,12 +493,12 @@ include/glfw/docs/CMakeFiles/docs.dir/clean:
 include/cglm/CMakeFiles/cglm.dir/all:
 	$(MAKE) $(MAKESILENT) -f include/cglm/CMakeFiles/cglm.dir/build.make include/cglm/CMakeFiles/cglm.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/cglm/CMakeFiles/cglm.dir/build.make include/cglm/CMakeFiles/cglm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45 "Built target cglm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target cglm"
 .PHONY : include/cglm/CMakeFiles/cglm.dir/all
 
 # Build rule for subdir invocation for target.
 include/cglm/CMakeFiles/cglm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/shemp_engine/build/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/shemp_engine/build/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/cglm/CMakeFiles/cglm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/shemp_engine/build/CMakeFiles 0
 .PHONY : include/cglm/CMakeFiles/cglm.dir/rule
@@ -510,7 +510,7 @@ cglm: include/cglm/CMakeFiles/cglm.dir/rule
 # codegen rule for target.
 include/cglm/CMakeFiles/cglm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f include/cglm/CMakeFiles/cglm.dir/build.make include/cglm/CMakeFiles/cglm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45 "Finished codegen for target cglm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will/shemp_engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Finished codegen for target cglm"
 .PHONY : include/cglm/CMakeFiles/cglm.dir/codegen
 
 # clean rule for target.

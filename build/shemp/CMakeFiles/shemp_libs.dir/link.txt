@@ -1,2 +1,2 @@
-/usr/bin/ar qc libshemp_libs.a CMakeFiles/shemp_libs.dir/smpinit.c.o CMakeFiles/shemp_libs.dir/smpshdr.c.o CMakeFiles/shemp_libs.dir/smperr.c.o
+/usr/bin/ar qc libshemp_libs.a CMakeFiles/shemp_libs.dir/smpinit.c.o CMakeFiles/shemp_libs.dir/smpshdr.c.o CMakeFiles/shemp_libs.dir/smperr.c.o CMakeFiles/shemp_libs.dir/smprt.c.o
 /usr/bin/ranlib libshemp_libs.a

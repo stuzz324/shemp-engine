@@ -7,10 +7,13 @@ target_sources(shemp_libs
         smpinit.c
         smpshdr.c
         smperr.c
+        smprt.c
     PUBLIC
         FILE_SET HEADERS
         FILES
             smpinit.h
             smpshdr.h
+            smperr.h
+            smprt.h
             smptypes.h
 )

@@ -11,6 +11,7 @@ typedef struct rdbuf {
 
 //fd MUST be open
 rdbuf* create_rdbuf(int fd);
+rdbuf* create_rdbuf_path(const char* path, int flags);
 
 void resize_rdbuf(rdbuf** rb, size_t new_len);
 

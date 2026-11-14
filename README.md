@@ -15,3 +15,6 @@ Shader data is stored in a specific, simple way:
    project build. This is most likely due to how I am linking 
    it in CMakeLists.txt. Specifically that *gl.h* already gets 
    linked through GLFW. (11-09-2026: has disappeared??)
+
+# TODO
+1. Settle upon a way to store vertex data in arrays.

@@ -11,3 +11,11 @@ target_sources(shemp_main
 
 add_subdirectory(shemp)
 add_subdirectory(include)
+
+add_custom_command(
+    OUTPUT data
+    COMMAND ${CMAKE_COMMAND}
+    ARGS -E make_directory ${CMAKE_CURRENT_BINARY_DIR}/data
+    COMMAND ${CMAKE_COMMAND}
+    ARGS -E make_directory ${CMAKE_CURRENT_BINARY_DIR}/data/shaders
+)

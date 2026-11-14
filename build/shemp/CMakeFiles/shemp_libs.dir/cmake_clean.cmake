@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/shemp_libs.dir/smperr.c.o.d"
   "CMakeFiles/shemp_libs.dir/smpinit.c.o"
   "CMakeFiles/shemp_libs.dir/smpinit.c.o.d"
+  "CMakeFiles/shemp_libs.dir/smprt.c.o"
+  "CMakeFiles/shemp_libs.dir/smprt.c.o.d"
   "CMakeFiles/shemp_libs.dir/smpshdr.c.o"
   "CMakeFiles/shemp_libs.dir/smpshdr.c.o.d"
   "libshemp_libs.a"

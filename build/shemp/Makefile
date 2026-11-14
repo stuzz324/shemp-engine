@@ -250,6 +250,30 @@ smpinit.c.s:
 	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smpinit.c.s
 .PHONY : smpinit.c.s
 
+smprt.o: smprt.c.o
+.PHONY : smprt.o
+
+# target to build an object file
+smprt.c.o:
+	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smprt.c.o
+.PHONY : smprt.c.o
+
+smprt.i: smprt.c.i
+.PHONY : smprt.i
+
+# target to preprocess a source file
+smprt.c.i:
+	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smprt.c.i
+.PHONY : smprt.c.i
+
+smprt.s: smprt.c.s
+.PHONY : smprt.s
+
+# target to generate assembly for a file
+smprt.c.s:
+	cd /home/will/shemp_engine/build && $(MAKE) $(MAKESILENT) -f shemp/CMakeFiles/shemp_libs.dir/build.make shemp/CMakeFiles/shemp_libs.dir/smprt.c.s
+.PHONY : smprt.c.s
+
 smpshdr.o: smpshdr.c.o
 .PHONY : smpshdr.o
 
@@ -296,6 +320,9 @@ help:
 	@echo "... smpinit.o"
 	@echo "... smpinit.i"
 	@echo "... smpinit.s"
+	@echo "... smprt.o"
+	@echo "... smprt.i"
+	@echo "... smprt.s"
 	@echo "... smpshdr.o"
 	@echo "... smpshdr.i"
 	@echo "... smpshdr.s"
